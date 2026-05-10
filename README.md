@@ -1,6 +1,6 @@
 # Privacy-Preserving Distributed Optimal Consensus of High-Order Nonlinear Multi-Agent Systems
 
-[中文说明 / Chinese Version](./README_zh.md)
+[中文 / Chinese Version](./README_zh.md)
 
 This repository contains MATLAB implementations for distributed optimal consensus experiments on high-order nonlinear multi-agent systems, including privacy-preserving variants based on Paillier encryption.
 
