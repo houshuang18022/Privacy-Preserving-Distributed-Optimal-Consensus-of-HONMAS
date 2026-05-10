@@ -10,12 +10,6 @@
 - 论文链接：[IEEE Xplore](https://ieeexplore.ieee.org/document/11354804)
 - 录用情况：该论文已被 IEEE TrustCom 接收。
 
-## 项目声明
-
-- 项目名称：*Privacy-Preserving Distributed Optimal Consensus of High-Order Nonlinear Multi-Agent Systems*
-- 作者：`houshuang18022`
-- 作者单位：College of Cyber Security, Jinan University
-
 ## 仓库结构
 
 - `consensus/`
@@ -72,3 +66,9 @@ consensus_algorithm2
 - 仓库保留了原始实验目录结构和相关支撑文件。
 - `comparsion/` 目录中包含实验对比过程使用或生成的中间脚本、图像和 `.mat` 数据文件。
 - 如需进一步整理为正式开源项目，建议结合各 MATLAB 脚本中的参数配置和实验设置进行复核。
+
+## 项目声明
+
+- 项目名称：*Privacy-Preserving Distributed Optimal Consensus of High-Order Nonlinear Multi-Agent Systems*
+- 作者：熊雨萱，张银炎
+- 作者单位：College of Cyber Security, Jinan University

@@ -72,5 +72,5 @@ consensus_algorithm2
 ## Project Statement
 
 - Project Name: *Privacy-Preserving Distributed Optimal Consensus of High-Order Nonlinear Multi-Agent Systems*
-- Author: `houshuang18022`
+- Author: Yuxuan Xiong, Yinyan Zhang
 - Affiliation: College of Cyber Security, Jinan University
