@@ -1,4 +1,4 @@
-%% Sensors 2022 - Leaderless MAS Global Consensus with Delay and Saturation (N=4 Version)
+﻿%% Sensors 2022 - Leaderless MAS Global Consensus with Delay and Saturation (N=4 Version)
 clear; clc; close all;
 
 %% Parameters
@@ -142,9 +142,9 @@ Lx = zeros(Kmax+1, N);
 Lx_norm = zeros(1, Kmax+1);
 
 for k = 1:Kmax+1
-    x_pos = squeeze(x(1,:,k))';  % 仅使用位置维�?x1
+    x_pos = squeeze(x(1,:,k))';
     Lx(k,:) = L * x_pos;
-    Lx_norm(k) = norm(Lx(k,:), 2);  % 计算二范�?
+    Lx_norm(k) = norm(Lx(k,:), 2);
 end
 
 %% Plot Consensus Error ||Lx||_2

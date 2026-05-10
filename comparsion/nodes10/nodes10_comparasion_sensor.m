@@ -1,4 +1,4 @@
-%% Sensors 2022 - Leaderless MAS Global Consensus with Delay and Saturation (N=10 Version)
+﻿%% Sensors 2022 - Leaderless MAS Global Consensus with Delay and Saturation (N=10 Version)
 clear; clc; close all;
 
 %% Parameters

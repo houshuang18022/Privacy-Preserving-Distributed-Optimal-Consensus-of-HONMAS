@@ -1,4 +1,4 @@
-classdef PaillierCrypto < handle
+﻿classdef PaillierCrypto < handle
     % PaillierCrypto: Constructs an object of PaillierCrypto class.
     %
     % my_paillier = PaillierCrypto() creates an object instance 'my_paillier'
@@ -68,7 +68,7 @@ classdef PaillierCrypto < handle
     
     methods (Access = public)
           function result = addEncryptedNumbers(obj, ciphertext1, ciphertext2)
-            % 同态加法：c = c1 * c2 mod n^2
+
             result = ciphertext1.multiply(ciphertext2).mod(obj.PublicKey.n2);
         end
 
