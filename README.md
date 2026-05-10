@@ -1,5 +1,7 @@
 # Privacy-Preserving Distributed Optimal Consensus of High-Order Nonlinear Multi-Agent Systems
 
+[中文说明 / Chinese Version](./README_zh.md)
+
 This repository contains MATLAB implementations for distributed optimal consensus experiments on high-order nonlinear multi-agent systems, including privacy-preserving variants based on Paillier encryption.
 
 The codebase is organized to reproduce the main experiment groups corresponding to Fig. 2, Fig. 3, and Fig. 4 referenced in the associated paper.
@@ -9,12 +11,6 @@ The codebase is organized to reproduce the main experiment groups corresponding 
 - Title: *Privacy-Preserving Distributed Optimal Consensus of High-Order Nonlinear Multi-Agent Systems*
 - Link: [IEEE Xplore](https://ieeexplore.ieee.org/document/11354804)
 - Status: This paper has been accepted by IEEE TrustCom.
-
-## Project Statement
-
-- Project Name: *Privacy-Preserving Distributed Optimal Consensus of High-Order Nonlinear Multi-Agent Systems*
-- Author: `houshuang18022`
-- Affiliation: College of Cyber Security, Jinan University
 
 ## Repository Structure
 
@@ -72,3 +68,9 @@ consensus_algorithm2
 - The repository keeps the original experiment folder names and supporting files.
 - The `comparsion/` directory contains intermediate scripts, figures, and `.mat` data generated or used during method comparison.
 - If you plan to publish results from this repository, review the scripts and parameter settings in each MATLAB file before rerunning the experiments.
+
+## Project Statement
+
+- Project Name: *Privacy-Preserving Distributed Optimal Consensus of High-Order Nonlinear Multi-Agent Systems*
+- Author: `houshuang18022`
+- Affiliation: College of Cyber Security, Jinan University
