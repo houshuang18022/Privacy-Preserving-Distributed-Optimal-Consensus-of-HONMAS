@@ -1,8 +1,20 @@
-# Privacy-Preserving Distributed Optimal Consensus of High-Order NoMAS
+# Privacy-Preserving Distributed Optimal Consensus of High-Order Nonlinear Multi-Agent Systems
 
-This repository contains MATLAB implementations for distributed optimal consensus experiments on high-order multi-agent systems, including privacy-preserving variants based on Paillier encryption.
+This repository contains MATLAB implementations for distributed optimal consensus experiments on high-order nonlinear multi-agent systems, including privacy-preserving variants based on Paillier encryption.
 
-The codebase is organized to reproduce the main experiment groups corresponding to Fig. 2, Fig. 3, and Fig. 4 referenced in the original project notes.
+The codebase is organized to reproduce the main experiment groups corresponding to Fig. 2, Fig. 3, and Fig. 4 referenced in the associated paper.
+
+## Paper
+
+- Title: *Privacy-Preserving Distributed Optimal Consensus of High-Order Nonlinear Multi-Agent Systems*
+- Link: [IEEE Xplore](https://ieeexplore.ieee.org/document/11354804)
+- Status: This paper has been accepted by IEEE TrustCom.
+
+## Project Statement
+
+- Project Name: *Privacy-Preserving Distributed Optimal Consensus of High-Order Nonlinear Multi-Agent Systems*
+- Author: `houshuang18022`
+- Affiliation: College of Cyber Security, Jinan University
 
 ## Repository Structure
 
@@ -21,7 +33,7 @@ The codebase is organized to reproduce the main experiment groups corresponding 
 ## Requirements
 
 - MATLAB
-- No external toolbox requirements were documented in the original notes
+- No external toolbox requirements were documented in the original project notes
 
 The privacy-preserving implementations include local copies of `PaillierCrypto.m` inside the corresponding experiment folders.
 
@@ -30,8 +42,8 @@ The privacy-preserving implementations include local copies of `PaillierCrypto.m
 Clone the repository:
 
 ```bash
-git clone https://github.com/houshuang18022/Privacy-Preserving-Distributed-Optimal-Consensus-of-High-Order-NoMAS.git
-cd Privacy-Preserving-Distributed-Optimal-Consensus-of-High-Order-NoMAS
+git clone https://github.com/houshuang18022/Privacy-Preserving-Distributed-Optimal-Consensus-of-HONMAS.git
+cd Privacy-Preserving-Distributed-Optimal-Consensus-of-HONMAS
 ```
 
 Reproduce the baseline result for Fig. 2:
